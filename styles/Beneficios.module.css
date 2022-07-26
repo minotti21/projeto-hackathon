@@ -1,3 +1,4 @@
+
 .beneficiosContainer {
     display: flex;
     flex-direction: column;
@@ -6,3 +7,65 @@
     background: linear-gradient(141deg, #94ff7f 0%, rgba(150,255,243,1) 60%, rgb(132, 197, 255) 100%);
     color: #050044;
 }
+.beneficioFlex {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-top: 4em;
+    padding: 0 8em;
+}
+
+.beneficioText h1 {
+    font-size: 44px;
+    margin-bottom: 1em;
+}
+
+.beneficioText p {
+    font-size: 18px;
+    margin-bottom: 3em;
+}
+.beneficioImg img {
+    width: 600px;
+}
+.flipContainer {
+    width: 600px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  .flipper{
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+}
+.flipper{
+	width: 100%;
+	height: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.flipContainer:hover .flipper{
+	transform: rotateY(180deg);
+	/* se quiser uma animação na vertical,
+	troque por rotateX(180deg)
+	*/
+}
+.flipper{
+	position: relative;
+	
+}
+.back{
+	transform: rotateY(180deg);
+}
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .front img {
+    width: 600px;
+    align:left
+}
+
+  
