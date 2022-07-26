@@ -1,0 +1,10 @@
+.footerContainer {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerContainer p {
+    font-weight: 600;
+}

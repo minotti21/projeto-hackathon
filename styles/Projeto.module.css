@@ -1,0 +1,8 @@
+.projetoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background: linear-gradient(141deg, #94ff7f 0%, rgba(150,255,243,1) 60%, rgb(132, 197, 255) 100%);
+    color: #050044;
+}
