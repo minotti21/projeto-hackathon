@@ -3,6 +3,28 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    background: linear-gradient(141deg, #94ff7f 0%, rgba(150,255,243,1) 60%, rgb(132, 197, 255) 100%);
-    color: #050044;
+    background: linear-gradient(141deg, #fff 0%, rgba(150,255,243,1) 60%, rgb(100, 183, 255) 100%);
+}
+
+.projetoFlex {
+    display: flex;
+    justify-content: space-between;
+    gap: 320px;
+    margin-top: 4em;
+    padding: 0 8em;
+}
+
+.projetoText h1 {
+    font-size: 44px;
+    margin-bottom: 1em;
+}
+
+.projetoText p {
+    font-size: 18px;
+    margin-bottom: 3em;
+}
+
+.projetoImg img {
+    width: 600px;
+    filter: brightness(110%) contrast(110%);
 }
