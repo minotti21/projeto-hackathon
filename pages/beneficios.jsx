@@ -17,7 +17,7 @@ export default function Beneficios() {
               <p> De acordo com a pirâmide da aprendizagem de William Glasses, cerca de 90% do conhecimento é retido quando ensinamos outras pessoas aquilo que aprendemos.
                 </p>
               <p>
-                Essa métodologia é aplicavel à qualquer cenário seja ele empresárial ou cotidiano e além de acelerar o processo ensino aprendizagem torna ele mais democrático, pois acredita-se que todos tem algo à ensinar e aprender.
+                Essa métodologia é aplicavel à qualquer cenário seja ele empresárial ou cotidiano e além de acelerar o processo ensino aprendizagem torna ele mais democrático pois, acredita-se que todos tem algo à ensinar e aprender
               </p>
           </div>
         </div>
