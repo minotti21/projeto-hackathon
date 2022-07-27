@@ -7,8 +7,6 @@ export default function Beneficios() {
     <main className={styles.beneficiosContainer}>
       <Navbar />
     <div className={styles.beneficioFlex}>
-      
-     
       <div className={styles.flipContainer}>
         <div className={styles.flipper}>
           <div className={styles.front}>

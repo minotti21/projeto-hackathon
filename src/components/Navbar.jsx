@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav className={styles.navbarContainer}>
             <div className={styles.logo}>
-                <h1>EducaTec</h1>
+               <img src="logo.png" alt='Logo com nome ubuntu e um globo conectado om pontinhos'></img>
             </div>
             <ul>
                 <li><Link href="/"><a>Início</a></Link></li>
