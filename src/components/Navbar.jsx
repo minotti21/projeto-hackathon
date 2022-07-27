@@ -5,11 +5,11 @@ export default function Navbar() {
     return (
         <nav className={styles.navbarContainer}>
             <div className={styles.logo}>
-                <h1>EducaTec</h1>
+                <Link href="/"><img src="logo.png" alt="" /></Link>
             </div>
             <ul>
                 <li><Link href="/"><a>Início</a></Link></li>
-                <li><Link href="/projeto"><a>Projeto</a></Link></li>
+                <li><Link href="objetivo"><a>Objetivo</a></Link></li>
                 <li><Link href="beneficios"><a>Benefícios</a></Link></li>
                 <li><Link href="contato"><a>Contato</a></Link></li>
             </ul>

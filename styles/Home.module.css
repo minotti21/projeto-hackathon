@@ -3,29 +3,28 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    background: linear-gradient(141deg, #94ff7f 0%, rgba(150,255,243,1) 60%, rgb(100, 183, 255) 100%);
+    background: linear-gradient(141deg, #94ff7f 0%, rgba(150,255,243,1) 40%, rgb(100, 183, 255) 100%);
 }
 
 .homeFlex {
     display: flex;
     justify-content: space-between;
-    gap: 320px;
+    gap: 14em;
     margin-top: 4em;
     padding: 0 8em;
 }
 
-.homeText h1 {
-    font-size: 44px;
-    margin-bottom: 1em;
-}
-
-.homeText p {
-    font-size: 18px;
-    margin-bottom: 3em;
+.homeText div {
+    margin-top: 2em;
 }
 
 .homeImg img {
-    width: 600px;
     filter: brightness(110%) contrast(110%);
+    animation: floating 4s ease-in-out infinite;
 }
 
+@keyframes floating {
+    0% { transform: translate(0,  0); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, 0); }
+}
