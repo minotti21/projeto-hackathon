@@ -13,8 +13,12 @@ export default function Beneficios() {
             <img src="https://rubeus.com.br/wp-content/uploads/2020/10/PIRAMIDE-1-min.png"alt="Pirâmide da Aprendizagem de Willian Glasser" />
           </div>
           <div className={styles.back}>
-            <h2>Você já ouviu falar que apendemos mais uando ensinamos ?</h2>
-              <p> De acordo com a pirâmide da aprendizagem de William Glasses cerca de 90% do conhecimento é retido quando ensinamos outras pessoas aquilo que aprendemos</p>
+            <h2>Você já ouviu falar que apendemos mais quando ensinamos ?</h2>
+              <p> De acordo com a pirâmide da aprendizagem de William Glasses, cerca de 90% do conhecimento é retido quando ensinamos outras pessoas aquilo que aprendemos.
+                </p>
+              <p>
+                Essa métodologia é aplicavel à qualquer cenário seja ele empresárial ou cotidiano e além de acelerar o processo ensino aprendizagem torna ele mais democrático, pois acredita-se que todos tem algo à ensinar e aprender.
+              </p>
           </div>
         </div>
         
