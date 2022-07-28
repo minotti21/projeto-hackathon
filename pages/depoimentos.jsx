@@ -18,9 +18,6 @@ export default function Depoimentos() {
                 <title>Ubuntu - Depoimentos</title>
             </Head>
             <Navbar/>
-            <div>
-                <h1>olá</h1>
-            </div>
             <Footer/>
         </main>
     )

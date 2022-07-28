@@ -22,7 +22,7 @@ export default function Home() {
       <Navbar />
       <div className={styles.homeFlex}>
         <div className={styles.homeText}>
-          <Text title='Nosso objetivo é transformar pessoas através da soliedariedade mutua' paragraph='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam iusto at. Ullam excepturi libero aperiam eveniet eum distinctio quidem pariatur. Ducimus tenetur laborum, nobis iste, natus quam minima assumenda eum eius, vitae dolor! Ab repudiandae aliquam explicabo alias commodi ducimus eaque accusamus officia. Ipsa tenetur libero ratione repellat laborum beatae, voluptates molestiae reiciendis commodi placeat omnis explicabo doloribus delectus!' />
+          <Text title='Nosso objetivo é transformar o modelo atual da educação através da coletivdade' paragraph='' />
           <Link href='/objetivo'><a><Button text='Saiba Mais' /></a></Link>
         </div>
         <div className={styles.homeImg}>
