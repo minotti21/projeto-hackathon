@@ -14,6 +14,10 @@
     margin-top: 2em;
 }
 
+.contatoText {
+    margin-top: 4em;
+}
+
 .contatoText h1 {
     font-size: 44px;
     margin-bottom: 1em;
@@ -22,6 +26,7 @@
 .contatoText h2 {
     margin-bottom: 2em;
     font-weight: 300;
+    font-size: 22px;
 }
 
 .contatoText button {

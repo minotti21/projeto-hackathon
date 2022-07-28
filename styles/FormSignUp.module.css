@@ -5,6 +5,11 @@
     width: 42em
 }
 
+.formContainer h1 {
+    margin-bottom: 0.6em;
+    font-size: 40px
+}
+
 .formContainer label p {
     font-size: 26px;
     font-weight: bold;
@@ -18,7 +23,7 @@
     cursor: pointer;
     transition: 0.6s;
     border-radius: 10px;
-    margin-top: 2em;
+    margin-top: 6px;
     width: 8em;
 }
 

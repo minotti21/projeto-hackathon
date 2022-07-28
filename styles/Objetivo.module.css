@@ -14,6 +14,18 @@
     padding: 0 8em;
 }
 
+.objetivoImg {
+    width: 600px;
+    height: 550px;
+}
+
 .objetivoImg img {
     filter: brightness(110%) contrast(110%);
+    width: 600px;
+    transition: 1s;
 }
+
+.objetivoImg img:hover {
+    width: 624px;
+}
+

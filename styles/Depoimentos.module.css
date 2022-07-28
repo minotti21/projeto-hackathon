@@ -5,3 +5,52 @@
     height: 100vh;
     background: linear-gradient(141deg, #fff 0%, rgba(150,255,243,1) 60%, rgb(100, 183, 255) 100%);
 }
+
+.depoimentosFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4em;
+    padding: 0 8em;
+}
+
+.depoimentosFlex div {
+    background: linear-gradient(148deg, rgba(158,219,255,1) 0%, rgba(198,255,165,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 430px;
+    border-radius: 20px;
+    position: relative;
+    padding: 0 2em;
+}
+
+.depoimentosFlex h1 {
+    margin-top: 2.5em;
+    font-size: 36px;
+}
+
+.depoimentosFlex h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1.5em;
+}
+
+.depoimentosFlex img {
+    width: 160px;
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+}
+
+.depoimentosEmpresas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.depoimentosEmpresas img {
+    width: 150px;
+}

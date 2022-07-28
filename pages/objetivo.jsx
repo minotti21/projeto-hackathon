@@ -2,7 +2,6 @@ import Footer from '../src/components/Footer'
 import Navbar from '../src/components/Navbar'
 import Text from '../src/components/Text'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Objetivo.module.css'
 
 
@@ -21,10 +20,14 @@ export default function Objetivo() {
       <Navbar />
       <div className={styles.objetivoFlex}>
         <div className={styles.objetivoImg}>
-          <Image src='/peopleTalking2.png' width={2500} height={2184} alt='Uma mulher e um homem conversando' />
+          <img src='/peopleTalking2.png' alt='Uma mulher e um homem conversando' />
         </div>
         <div className={styles.objetivoText}>
-          <Text title='Um projeto com grandes ambições' paragraph='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam iusto at. Ullam excepturi libero aperiam eveniet eum distinctio quidem pariatur. Ducimus tenetur laborum, nobis iste, natus quam minima assumenda eum eius, vitae dolor! Ab repudiandae aliquam explicabo alias commodi ducimus eaque accusamus officia. Ipsa tenetur libero ratione repellat laborum beatae, voluptates molestiae reiciendis commodi placeat omnis explicabo doloribus delectus!' />
+          <Text 
+          title='' 
+          paragraph1='Queremos mostrar as pessoas que elas são capazes de ajudar a democratizar a educação a partir de pequenas ações, ao compartilhar conhecimento, assume-se o papel de agente da educação, transformado de certo ponto a vida daqueles que foram os receptores. ' 
+          paragraph2='Paulo Freire uma vez citou: "Educação não transforma o mundo, educação muda as pessoas, pessoas transformam o mundo.'/>
+          
         </div>
       </div>
       <Footer />

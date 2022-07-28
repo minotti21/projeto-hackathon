@@ -4,6 +4,7 @@
 }
 
 .textContainer p {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 3em;
+    font-weight: 300;
 }
