@@ -5,27 +5,9 @@
     padding: 0.6em 2em;
     cursor: pointer;
     transition: 0.6s;
-    position: relative;
-    z-index: 1;
-    border-radius: 26px;
+    border-radius: 10px;
 }
 
-.btn::before {
-    content: "";
-    background-color: #94ff7f;
-    border-radius: 3000px;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 51px;
-    transition: transform 0.4s ease-in-out;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    z-index: -1;
-}
-
-.btn:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+.btn:hover {
+    background-color: rgb(156, 255, 110);
 }
