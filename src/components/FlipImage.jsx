@@ -13,10 +13,14 @@ export default function FlipImage() {
     return (
         <div className={styles.flipContainer}>
             <div className={isFlipped ? styles.flipped : styles.flip} onClick={handleClick}>
-                <div className={styles.flipFront}>
-                    <h1>Testando</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, iure dolorum. Veritatis quisquam voluptatibus, dolores quod similique quasi eveniet veniam perspiciatis assumenda iusto. Error fugiat esse accusantium, neque, dignissimos magni impedit et ducimus voluptates illo, deserunt iure architecto! Velit reprehenderit obcaecati id, laboriosam temporibus adipisci nihil? Natus magnam totam maiores.</p>
-                </div>
+                 <div className={styles.flipFront}>
+                     <h1>Você já ouviu falar que aprendemos mais quando ensinamos?</h1>
+                        <p> De acordo com a pirâmide da aprendizagem de William Glasses, cerca de 90% do conhecimento é retido quando ensinamos outras pessoas aquilo que aprendemos.
+                        </p>
+                        <p>
+                             Essa métodologia é aplicavel à qualquer cenário seja ele empresárial ou cotidiano e além de acelerar o processo ensino aprendizagem torna ele mais democrático pois, acredita-se que todos tem algo à ensinar e aprender.
+                        </p>
+                 </div>
                 <div className={styles.flipBack}>
                     <img src="piramideAprendizado.png" alt="Pirâmide da Aprendizagem de Willian Glasser" />
                 </div>

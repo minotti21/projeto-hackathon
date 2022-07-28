@@ -5,6 +5,7 @@ import Text from '../src/components/Text'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
       <div className={styles.homeFlex}>
         <div className={styles.homeText}>
           <Text title='Nosso objetivo é transformar pessoas através da soliedariedade mutua' paragraph='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam iusto at. Ullam excepturi libero aperiam eveniet eum distinctio quidem pariatur. Ducimus tenetur laborum, nobis iste, natus quam minima assumenda eum eius, vitae dolor! Ab repudiandae aliquam explicabo alias commodi ducimus eaque accusamus officia. Ipsa tenetur libero ratione repellat laborum beatae, voluptates molestiae reiciendis commodi placeat omnis explicabo doloribus delectus!' />
-          <Button text='Saiba Mais' />
+          <Link href='/objetivo'><a><Button text='Saiba Mais' /></a></Link>
         </div>
         <div className={styles.homeImg}>
           <Image src='/peopleTalking1.png' width={2400} height={2299} alt='Uma mulher e um homem conversando' />
