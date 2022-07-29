@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import styles from '../../styles/Form.module.css'
 import Label from './Label'
+import Modal from './Modal'
 
 export default function Form({title}) {
 
@@ -9,6 +10,11 @@ export default function Form({title}) {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
+    const [isModalVisible, setIsModalVisible] = useState(false)
+
+    function turnModalVisible() {
+        setIsModalVisible(true)
+    }
 
     function handleName(e) {
         setName(e.target.value)
@@ -27,6 +33,11 @@ export default function Form({title}) {
         dadosMensagem.name = name
         dadosMensagem.email = email
         dadosMensagem.message = message
+        turnModalVisible()
+        setTimeout(() => {
+            setIsModalVisible(false)
+        }, 2000);
+        Array.from(document.querySelectorAll("input, textarea")).forEach(input => (input.value = ""))
         localStorage.setItem("dadosMensagem", JSON.stringify(dadosMensagem))
     }
 
@@ -38,7 +49,8 @@ export default function Form({title}) {
             <label><p>Mensagem: </p>
                 <textarea name="message"placeholder='Digite sua mensagem' onChange={handleMessage}></textarea>
             </label>
-            <input className={styles.btn} type="submit"  />
+            <button onClick={handleSubmit} className={styles.btn}>Enviar</button>
+            <Modal customClass={isModalVisible ? 'active' : ''} text='Mensagem Enviada!'/>
         </form>
     )
 }

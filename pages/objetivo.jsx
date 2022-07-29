@@ -27,7 +27,7 @@ export default function Objetivo() {
             title='Comprometimento e Responsabilidade'
             paragraph1='Nosso objetivo é transformar o atual modelo de ensino através da coletividade, acreditamos que todas as pessoas são capazes de contribuir, a partir de pequenas ações, porém não menos relevantes,  com a  Democratização da Educação. Ao compartilharmos nossos conhecimentos assumimos o papel de agentes da educação proporcionando o engajamento e a  transformação das pessoas que estão em busca de desenvolvimento. ' />
           <div className={styles.objetivoCitação}>
-            <p>&ldquo;Educação não transforma o mundo. Educação muda as pessoas. pessoas transformam o mundo.&rdquo;</p>
+            <p>&ldquo;Educação não transforma o mundo. Educação muda as pessoas. Pessoas transformam o mundo.&rdquo;</p>
             <span>Paulo Freire</span>
           </div>
 

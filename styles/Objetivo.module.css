@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     gap: 12em;
-    margin-top: 6em;
+    margin-top: 4em;
     padding: 0 8em;
 }
 
@@ -38,4 +38,83 @@
 .objetivoCitação span {
     font-style: italic;
     font-size: 24px;
+}
+
+@media screen and (max-width: 1400px) {
+    .objetivoFlex {
+        gap: 8em;
+        padding: 0 6em;
+        margin-top: 1em;
+    }
+
+    .objetivoImg img {
+        width: 500px;
+        margin-top: 4em;
+    }
+
+    .objetivoImg img:hover {
+        width: 524px;
+    }
+
+    .objetivoText h1 {
+        margin-bottom: 0.4em;
+        font-size: 36px;
+    }
+
+    .objetivoText p {
+        font-size: 18px;
+    }
+
+    .objetivoCitação p {
+        font-size: 28px;
+    }
+
+    .objetivoCitação span {
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .objetivoContainer {
+        height: 100%;
+    }
+
+    .objetivoFlex {
+        flex-direction: column;
+        padding: 0 2em;
+        gap: 3em;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .objetivoImg img {
+        width: 250px;
+        margin-bottom: 2em;
+    }
+
+    .objetivoImg img:hover {
+        width: 260px;
+    }
+
+    .objetivoText h1 {
+        margin-bottom: 0.4em;
+        font-size: 36px;
+    }
+
+    .objetivoCitação p {
+        font-size: 28px;
+    }
+
+    .objetivoCitação span {
+        font-size: 20px;
+    }
+
+    .objetivoImg {
+        width: auto;
+        height: auto;
+    }
+
 }

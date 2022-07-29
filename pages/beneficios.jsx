@@ -22,7 +22,7 @@ export default function Beneficios() {
       <div className={styles.beneficiosFlex}>
         <FlipImage />
         <div className={styles.beneficiosImg}>
-          <Image src='/conhecimento.png' width={500} height={500} alt='Círculo composto com fotos de pessoas e uma lampâda no meio'/>
+          <img src='/conhecimento.png' alt='Círculo composto com fotos de pessoas e uma lampâda no meio'/>
         </div>
       </div>
       <Footer />

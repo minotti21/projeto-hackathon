@@ -4,7 +4,6 @@
     align-items: center;
     height: 12vh;
     padding: 0 8em;
-    transition: 0.4s ease-in-out;
 }
 
 .navbarContainer ul {
@@ -15,7 +14,7 @@
 
 .navbarContainer li {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 24px;
     position: relative;
 }
 
@@ -35,7 +34,113 @@
 }
 
 .logo img {
-    margin-top: 1.4em;
+    width: 17em;
+    margin-top: 1em;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .navbarContainer {
+        padding: 0 6em;
+    }
+
+    .navbarContainer ul {
+        gap: 3em;
+    }
+
+    .navbarContainer li {
+        font-size: 22px;
+    }
+
+    .logo img {
+        width: 16em;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .navbarContainer {
+        padding: 0 4em;
+        position: relative;
+    }
+
+    .hamburguerMenu {
+        width: 34px;
+        height: 6px;
+        background-color: #050044;
+        z-index: 2;
+        position: fixed;
+        top: 2.6em;
+        right: 30px;
+    }
     
+    .hamburguerMenu::before {
+        content: "";
+        width: 40px;
+        height: 6px;
+        background-color: inherit;
+        position: absolute;
+        top: -16px;
+        transition: 0.4s;
+        right: 0;
+    }
+    
+    .hamburguerMenu::after {
+        content: "";
+        width: 40px;
+        height: 6px;
+        background-color: inherit;
+        position: absolute;
+        top: 16px;
+        transition: 0.4s;
+        right: 0;
+    }
+    
+    .active.hamburguerMenu {
+        background-color: transparent;
+    }
+    
+    .active.hamburguerMenu::before {
+        background-color: white;
+        transform: rotate(225deg);
+        top: 0;
+    }
+    
+    .active.hamburguerMenu::after {
+        background-color: white;
+        transform: rotate(-225deg);
+        top: 0;
+    }
+
+    .menu {
+        flex-direction: column;
+        background-color: #050044;
+        width: 50%;
+        position: fixed;
+        right: -250px;
+        top: 0;
+        padding: 3em 0;
+        transition: 0.8s;
+        align-items: center;
+        padding-top: 5em;
+        z-index: 1;
+        border-end-start-radius: 40px;
+    }
+
+    .open.menu {
+        right: 0;
+    }
+
+    .menu li {
+        width: min-content;
+        color: white;
+    }
+
+    .logo img {
+        width: 12em;
+    }
+
+
 }

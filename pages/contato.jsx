@@ -35,7 +35,7 @@ export default function Contato() {
       <div className={styles.contatoFlex}>
         <div className={styles.contatoText}>
           <h1>Entre em contato conosco ou cadastre-se como um colaborador!</h1>
-          <h2>Estamos abertos a receber todo tipo de feedback, preencha o formulário ao lado para nos enviar uma mensagem ou se preferir clique no botão abaixo e cadastre-se como um de nossos colaboradores, recebendo em seu e-mail informações exclusivas, como: locais de encontros, dicas que visam aumentar nosso círculo solidário e muito mais! </h2>
+          <p>Estamos abertos a receber todo tipo de feedback, preencha o formulário ao lado para nos enviar uma mensagem ou se preferir clique no botão abaixo e cadastre-se como um de nossos colaboradores, recebendo em seu e-mail informações exclusivas, como: locais de encontros, dicas que visam aumentar nosso círculo solidário e muito mais! </p>
           <Button onClick={turnVisible} text='Cadastrar' />
           <Button onClick={turnOffVisible} text='Mensagem' />
         </div>

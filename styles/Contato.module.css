@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    background: linear-gradient(141deg, #94ff7f 0%, rgba(150,255,243,1) 40%, rgb(100, 183, 255) 100%);;
+    background: linear-gradient(141deg, #94ff7f 0%, rgba(150, 255, 243, 1) 40%, rgb(100, 183, 255) 100%);
+    ;
 }
 
 .contatoFlex {
@@ -23,7 +24,7 @@
     margin-bottom: 1em;
 }
 
-.contatoText h2 {
+.contatoText p {
     margin-bottom: 2em;
     font-weight: 300;
     font-size: 22px;
@@ -31,4 +32,56 @@
 
 .contatoText button {
     margin-right: 2em;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .contatoFlex {
+        gap: 8em;
+        margin-top: 1em;
+        padding: 0 6em;
+    }
+
+    .contatoText {
+        margin-top: 2em;
+    }
+
+    .contatoText h1 {
+        font-size: 36px;
+        margin-bottom: 0.5em;
+    }
+
+    .contatoText p {
+        margin-bottom: 1em;
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .contatoText button {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .contatoContainer {
+        height: 100%;
+    }
+
+    .contatoFlex {
+        flex-direction: column;
+        padding: 0 2em;
+        gap: 3em;
+
+    }
+
+    .contatoImg img {
+        width: 250px;
+    }
+
+    .contatoText button {
+        margin: 1em 0;
+        font-size: 16px;
+        margin-right: 1em;
+    }
 }

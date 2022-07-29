@@ -1,0 +1,37 @@
+.modalContainer {
+    height: 80px;
+    width: 300px;
+    padding: 1em 2em;
+    background-color: rgb(158, 255, 112);
+    position: fixed;;
+    bottom: 2em;
+    right: -300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s;
+}
+
+.active {
+    right: 8em;
+}
+
+.modalContainer p {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1400px) {
+    .active {
+        right: 6em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .active {
+        right: 2em;
+        width: 82%;
+        border: 2px solid #050044;
+    }
+}

@@ -8,3 +8,9 @@
 .footerContainer p {
     font-weight: 600;
 }
+
+@media screen and (max-width: 900px) {
+    .footerContainer p {
+        font-size: 14px;
+    }
+}

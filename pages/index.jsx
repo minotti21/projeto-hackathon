@@ -21,7 +21,7 @@ export default function Home() {
       <Navbar />
       <div className={styles.homeFlex}>
         <div className={styles.homeText}>
-          <Text title='Transformando pessoas por meio da solidariedade mútua' paragraph1='Partimos de uma filosofia que está centrada nas pessoas, no compartilhamento de conhecimentos e na coletividade. Uma vez que você compartilha suas ideias , habilidades e competências a sociedade é beneficamente contemplada com diferentes tipos de saberes: científico, filosófico,  empírico, popular, entre outros.' />
+          <Text title='Transformando pessoas por meio da solidariedade mútua' paragraph1='Partimos de uma filosofia que está centrada nas pessoas, no compartilhamento de conhecimentos e na coletividade. Uma vez que você compartilha suas ideias, habilidades e competências, a sociedade é beneficamente contemplada com diferentes tipos de saberes: científico, filosófico,  empírico, popular, entre outros.' />
           <Link href='/objetivo'><a><Button text='Saiba Mais' /></a></Link>
         </div>
         <div className={styles.homeImg}>

@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import styles from '../../styles/FormSignUp.module.css'
 import Label from './Label'
+import Modal from './Modal'
 
-export default function Form({title}) {
+export default function Form({ title }) {
 
     const dadosPessoa = {}
 
@@ -10,6 +11,11 @@ export default function Form({title}) {
     const [email, setEmail] = useState("")
     const [age, setAge] = useState("")
     const [cpf, setCpf] = useState("")
+    const [isModalVisible, setIsModalVisible] = useState(false)
+
+    function turnModalVisible() {
+        setIsModalVisible(true)
+    }
 
     function handleName(e) {
         setName(e.target.value)
@@ -37,6 +43,11 @@ export default function Form({title}) {
         dadosPessoa.age = age
         dadosPessoa.cpf = cpf
         dadosPessoa.email = email
+        turnModalVisible()
+        setTimeout(() => {
+            setIsModalVisible(false)
+        }, 2000);
+        Array.from(document.querySelectorAll("input, textarea")).forEach(input => (input.value = ""))
         localStorage.setItem("dadosPessoa", JSON.stringify(dadosPessoa))
     }
 
@@ -47,8 +58,8 @@ export default function Form({title}) {
             <Label title='Idade: ' type='number' name='age' placeholder='Digite sua idade' onChange={handleAge} />
             <Label title='CPF: ' type='number' name='cpf' placeholder='Digite seu cpf' onChange={handleCpf} />
             <Label title='E-mail: ' type='email' name='email' placeholder='Digite seu email' onChange={handleEmail} />
-
-            <input className={styles.btn} type="submit"  />
+            <button onClick={handleSubmit} className={styles.btn}>Enviar</button>
+            <Modal customClass={isModalVisible ? 'active' : ''} text='Cadastro Realizado!'/>
 
         </form>
     )

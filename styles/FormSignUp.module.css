@@ -30,3 +30,21 @@
 .formContainer .btn:hover {
     background-color: rgb(156, 255, 110);
 }
+
+@media screen and (max-width: 1400px) {
+    .formContainer h1 {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+
+    .formContainer label p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .formContainer {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}

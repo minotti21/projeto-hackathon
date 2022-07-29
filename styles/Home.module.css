@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    background: linear-gradient(141deg, #94ff7f 0%, rgba(150,255,243,1) 40%, rgb(100, 183, 255) 100%);
+    background: linear-gradient(141deg, #94ff7f 0%, rgba(150, 255, 243, 1) 40%, rgb(100, 183, 255) 100%);
 }
 
 .homeFlex {
@@ -25,7 +25,48 @@
 }
 
 @keyframes floating {
-    0% { transform: translate(0,  0); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, 0); }
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .homeFlex {
+        gap: 8em;
+        margin-top: 2em;
+        padding: 0 6em;
+    }
+
+    .homeImg img {
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .homeContainer {
+        height: 100%;
+    }
+
+    .homeFlex {
+        flex-direction: column;
+        padding: 0 2em;
+        gap: 3em;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .homeImg img {
+        width: 250px;
+        margin-bottom: 2em;
+    }
 }
