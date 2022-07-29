@@ -23,11 +23,14 @@ export default function Objetivo() {
           <img src='/peopleTalking2.png' alt='Uma mulher e um homem conversando' />
         </div>
         <div className={styles.objetivoText}>
-          <Text 
-          title='' 
-          paragraph1='Queremos mostrar as pessoas que elas são capazes de ajudar a democratizar a educação a partir de pequenas ações, ao compartilhar conhecimento, assume-se o papel de agente da educação, transformado de certo ponto a vida daqueles que foram os receptores. ' 
-          paragraph2='Paulo Freire uma vez citou: "Educação não transforma o mundo, educação muda as pessoas, pessoas transformam o mundo.'/>
-          
+          <Text
+            title='Comprometimento e Responsabilidade'
+            paragraph1='Nosso objetivo é transformar o atual modelo de ensino através da coletividade, acreditamos que todas as pessoas são capazes de contribuir, a partir de pequenas ações, porém não menos relevantes,  com a  Democratização da Educação. Ao compartilharmos nossos conhecimentos assumimos o papel de agentes da educação proporcionando o engajamento e a  transformação das pessoas que estão em busca de desenvolvimento. ' />
+          <div className={styles.objetivoCitação}>
+            <p>&ldquo;Educação não transforma o mundo. Educação muda as pessoas. pessoas transformam o mundo.&rdquo;</p>
+            <span>Paulo Freire</span>
+          </div>
+
         </div>
       </div>
       <Footer />
