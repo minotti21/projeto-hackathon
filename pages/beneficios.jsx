@@ -2,7 +2,6 @@ import Footer from '../src/components/Footer'
 import Navbar from '../src/components/Navbar'
 import Head from 'next/head'
 import FlipImage from '../src/components/FlipImage'
-import Image from 'next/image'
 import styles from '../styles/Beneficios.module.css'
 
 export default function Beneficios() {

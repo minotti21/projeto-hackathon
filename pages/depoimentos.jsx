@@ -21,17 +21,17 @@ export default function Depoimentos() {
                 <div>
                     <h1>Let's Code</h1>
                     <h2>Escola de programação.</h2>
-                    <a href='https://letscode.com.br/' target="_blank"><img src="letscode.png" alt="Let's Code" /></a>
+                    <a href='https://letscode.com.br/' rel="noreferrer" target="_blank"><img src="letscode.png" alt="Let's Code" /></a>
                     <p>"Um projeto com grandes ambições, feito com base em uma soliedariedade mútua. Aqui na Let's Code nós aplicamos e logo nos primeiros meses vimos os resultados dessa filosofia de ensino."</p>
                 </div>
                 <div>
                     <h1>Jaque Laurenti</h1>
                     <h2>Colaboradora.</h2>
-                    <a href='https://www.linkedin.com/in/jaque-laurenti-30b15933/' target="_blank"><img src="profJaque.jpg" alt="" /></a>
+                    <a href='https://www.linkedin.com/in/jaque-laurenti-30b15933/' rel="noreferrer" target="_blank"><img src="profJaque.jpg" alt="" /></a>
                     <p>"É incrível fazer parte de algo que busca levar conhecimento a todos, Ubuntu é uma filosofia que leva as pessoas a fazerem o bem, após conhece-la, não só minha vida mas a de pessoas próximas a mim também mudaram."</p>
                 </div>
                 <div>
-                    <a href='https://institucional.ifood.com.br/' target="_blank" ><img src="ifood.png" alt="iFood" href="https://institucional.ifood.com.br/" /></a>
+                    <a href='https://institucional.ifood.com.br/' rel="noreferrer" target="_blank" ><img src="ifood.png" alt="iFood" href="https://institucional.ifood.com.br/" /></a>
                     <h1>Ifood</h1>
                     <h2>Empresa do ramo alimentício.</h2>
                     <p>"No iFood nossos colaboradores já foram conscientizados sobre o impacto que estar sempre disposto a ensinar pode ter em um contexto empresarial, colocando acima de tudo, a coletividade."</p>
