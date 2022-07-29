@@ -10,7 +10,7 @@ import { useState } from 'react'
 
 export default function Contato() {
 
-  const [isSignUpFormVisible, setIsSignUpFormVisible ] = useState(false)
+  const [isSignUpFormVisible, setIsSignUpFormVisible] = useState(false)
 
   function turnVisible() {
     setIsSignUpFormVisible(true)
@@ -41,7 +41,6 @@ export default function Contato() {
         </div>
         <div className={styles.contatoEmpresas}>
           {isSignUpFormVisible ? <FormSignUp title='Fazer Cadastro' /> : <Form title='Enviar Mensagem' /> }
-          
         </div>
       </div>
       <Footer />

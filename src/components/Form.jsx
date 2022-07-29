@@ -12,17 +12,14 @@ export default function Form({title}) {
 
     function handleName(e) {
         setName(e.target.value)
-        console.log(name)
     }
 
     function handleEmail(e) {
         setEmail(e.target.value)
-        console.log(email)
     }
 
     function handleMessage(e) {
         setMessage(e.target.value)
-        console.log(message)
     }
 
     function handleSubmit(event) {
@@ -42,7 +39,6 @@ export default function Form({title}) {
                 <textarea name="message"placeholder='Digite sua mensagem' onChange={handleMessage}></textarea>
             </label>
             <input className={styles.btn} type="submit"  />
-
         </form>
     )
 }
