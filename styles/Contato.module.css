@@ -47,14 +47,14 @@
     }
 
     .contatoText h1 {
-        font-size: 36px;
+        font-size: 28px;
         margin-bottom: 0.5em;
     }
 
     .contatoText p {
         margin-bottom: 1em;
         font-weight: 300;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .contatoText button {

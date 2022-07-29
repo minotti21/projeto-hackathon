@@ -22,3 +22,10 @@
     border-radius: 10px;
     width: 100%;
 }
+
+@media screen and (max-width: 1400px) {
+    .labelContainer input {
+        font-size: 15px;
+        margin: 0.5em 0;
+    }
+}
