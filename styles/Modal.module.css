@@ -17,6 +17,11 @@
     right: 8em;
 }
 
+.notFilled {
+    background-color: rgb(255, 112, 112);
+    right: 8em;
+}
+
 .modalContainer p {
     font-size: 26px;
     font-weight: 600;
@@ -26,12 +31,20 @@
     .active {
         right: 6em;
     }
+
+    .modalContainer {
+        height: 60px;
+        width: 225px;
+    }
+
+    .modalContainer p {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 900px) {
     .active {
         right: 2em;
         width: 82%;
-        border: 2px solid #050044;
     }
 }
