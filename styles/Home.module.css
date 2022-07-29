@@ -21,6 +21,7 @@
 .homeImg img {
     filter: brightness(110%) contrast(110%);
     animation: floating 4s ease-in-out infinite;
+    width: 600px;
 }
 
 @keyframes floating {

@@ -40,7 +40,7 @@ export default function Contato() {
           <Button onClick={turnOffVisible} text='Mensagem' />
         </div>
         <div className={styles.contatoEmpresas}>
-          {isSignUpFormVisible ? <FormSignUp /> : <Form /> }
+          {isSignUpFormVisible ? <FormSignUp title='Fazer Cadastro' /> : <Form title='Enviar Mensagem' /> }
           
         </div>
       </div>
