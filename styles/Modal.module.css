@@ -2,7 +2,7 @@
     height: 80px;
     width: 300px;
     padding: 1em 2em;
-    background-color: rgb(158, 255, 112);
+    background-color: #050044;
     position: fixed;;
     bottom: 2em;
     right: -300px;
@@ -25,6 +25,7 @@
 .modalContainer p {
     font-size: 26px;
     font-weight: 600;
+    color: #9eff70;
 }
 
 @media screen and (max-width: 1400px) {

@@ -103,13 +103,13 @@
     }
     
     .active.hamburguerMenu::before {
-        background-color: white;
+        background-color: #9eff70;
         transform: rotate(225deg);
         top: 0;
     }
     
     .active.hamburguerMenu::after {
-        background-color: white;
+        background-color: #9eff70;
         transform: rotate(-225deg);
         top: 0;
     }
@@ -135,7 +135,7 @@
 
     .menu li {
         width: min-content;
-        color: white;
+        color: #fff;
     }
 
     .logo img {
