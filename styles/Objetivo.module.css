@@ -29,10 +29,6 @@
     width: 624px;
 }
 
-.objetivoFlex h1 {
-    font-size: 28px;
-}
-
 .objetivoCitação p {
     font-size: 30px;
     font-weight: 600;
@@ -62,6 +58,10 @@
 
     .objetivoImg img:hover {
         width: 400px;
+    }
+
+    .objetivoFlex h1 {
+        font-size: 28px;
     }
 
     .objetivoCitação p {

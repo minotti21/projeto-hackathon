@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    background: linear-gradient(141deg, #94ff7f 0%, rgba(150, 255, 243, 1) 40%, rgb(100, 183, 255) 100%);
+    background: linear-gradient(141deg, #94ff7f 0%, #96fff3 40%, #64b7ff 100%);
 }
 
 .homeFlex {
